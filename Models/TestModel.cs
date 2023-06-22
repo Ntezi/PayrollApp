@@ -1,7 +1,8 @@
-namespace PayrollApp.Models;
-
-public class TestModel
+namespace PayrollApp.Models
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
+    public class TestModel
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
 }
